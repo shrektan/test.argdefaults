@@ -2,3 +2,4 @@
 
 export(test)
 export(test2)
+export(test3)

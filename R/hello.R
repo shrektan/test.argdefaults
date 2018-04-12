@@ -10,3 +10,8 @@ test <- function(x = opts) {
 test2 <- function(x = opts) {
   print(match.arg(x))
 }
+
+#' @export
+test3 <- function(x = c("a", "b", "c")) {
+  print(match.arg(x))
+}
